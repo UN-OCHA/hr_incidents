@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Humanitarianresponse Incidents feature.
+ */
+
+include_once 'hr_incidents.features.inc';
