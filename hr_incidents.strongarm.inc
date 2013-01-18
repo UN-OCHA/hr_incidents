@@ -105,6 +105,7 @@ function hr_incidents_strongarm() {
   $strongarm->name = 'node_options_incident';
   $strongarm->value = array(
     0 => 'status',
+    1 => 'promote',
   );
   $export['node_options_incident'] = $strongarm;
 
