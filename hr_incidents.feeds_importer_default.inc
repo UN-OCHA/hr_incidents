@@ -34,7 +34,7 @@ function hr_incidents_feeds_importer_default() {
     'processor' => array(
       'plugin_key' => 'FeedsNodeProcessor',
       'config' => array(
-        'content_type' => 'incident',
+        'bundle' => 'incident',
         'expire' => '-1',
         'author' => 0,
         'authorize' => 1,
