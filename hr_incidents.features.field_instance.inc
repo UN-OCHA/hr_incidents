@@ -177,6 +177,7 @@ function hr_incidents_field_default_field_instances() {
   // Exported field_instance: 'node-incident-field_incident_date'
   $field_instances['node-incident-field_incident_date'] = array(
     'bundle' => 'incident',
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -240,7 +241,7 @@ function hr_incidents_field_default_field_instances() {
         'text_parts' => array(),
         'year_range' => '-3:+3',
       ),
-      'type' => 'date_popup',
+      'type' => 'date_select',
       'weight' => 2,
     ),
   );

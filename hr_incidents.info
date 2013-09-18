@@ -1,7 +1,6 @@
 name = Humanitarianresponse Incidents
 core = 7.x
 package = Humanitarianresponse
-php = 5.2.4
 dependencies[] = ctools
 dependencies[] = date
 dependencies[] = ds
