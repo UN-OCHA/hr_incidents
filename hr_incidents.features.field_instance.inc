@@ -871,8 +871,8 @@ function hr_incidents_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-incident-field_users'
-  $field_instances['node-incident-field_users'] = array(
+  // Exported field_instance: 'node-incident-field_profiles'
+  $field_instances['node-incident-field_profiles'] = array(
     'bundle' => 'incident',
     'default_value' => NULL,
     'deleted' => 0,
@@ -901,7 +901,7 @@ function hr_incidents_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_users',
+    'field_name' => 'field_profiles',
     'label' => 'Contacts',
     'required' => 0,
     'settings' => array(
